@@ -1,0 +1,57 @@
+.container {
+  margin: 130px auto;
+  max-width: 650px;
+}
+
+body {
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  background-image: url(/src/pexels-pixabay-163116.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.instructions {
+  padding: 15px;
+  border-radius: 8px;
+  border-style: none;
+  width: 60%;
+}
+
+input::placeholder {
+  color: #6b7280;
+  font-size: 15px;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: #d97706;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+.button:hover {
+  background-color: #b45309;
+}
+
+.haiku {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #b45309;
+}
+
+footer {
+  margin-top: 150px;
+  font-size: 13px;
+}
