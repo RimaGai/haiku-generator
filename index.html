@@ -3,9 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <link rel="stylesheet" href="src/style.css">
-  <title>Document</title>
+  <title>Haiku generator</title>
 </head>
 
 <body>
@@ -14,18 +15,13 @@
       <h1>Haiku generator</h1>
     </header>
     <main>
-      <form>
+      <form id="haiku-form">
         <input type="text" placeholder="Enter the topic of your haiku" autofocus required autocomplete="off"
           class="instructions" />
         <input type="submit" class="button">
       </form>
     </main>
-    <div class="haiku">
-      Created with care,
-      <br>
-      on GitHub it breathes in code,
-      <br>
-      Netlify holds it.
+    <div class="haiku" id="haiku">
     </div>
     <footer>
       <p>
